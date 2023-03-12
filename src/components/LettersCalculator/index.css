@@ -1,0 +1,74 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #219a6f, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.label-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'roboto';
+  padding-bottom: 10px;
+}
+.input-text {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  width: 30vw;
+  height: 30px;
+  outline: none;
+}
+.no-of-letters-text {
+  background-color: #ffffff;
+  color: #219a6f;
+  height: 38px;
+  width: 150px;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.stop-watch-img {
+  height: 350px;
+  width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    background-image: linear-gradient(to right, #219a6f, #1d976c, #93f9b9);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    order: 2;
+  }
+}
